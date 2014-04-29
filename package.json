@@ -1,0 +1,20 @@
+{
+  "name": "ng-form-shake",
+  "version": "0.0.1",
+  "description": "login form with shake effect",
+  "main": "index.html",
+  "author": {
+    "name": "Mirco Zeiss",
+    "email": "mirco.zeiss@gmail.com",
+    "twitter": "zeMirco"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeMirco/ng-form-shake"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-autoprefixer": "0.0.7"
+  }
+}

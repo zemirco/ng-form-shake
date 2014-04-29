@@ -1,0 +1,43 @@
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  
+  12.5% {
+    transform: translateX(-6px) rotateY(-5deg);
+  }
+  
+  37.5% {
+    transform: translateX(5px) rotateY(4deg);
+  }
+  
+  62.5% {
+    transform: translateX(-3px) rotateY(-2deg);
+  }
+  
+  87.5% {
+    transform: translateX(2px) rotateY(1deg);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.container {
+  width: 250px;
+  margin: 50px auto;
+  perspective: 600px;
+}
+
+.box-shadow {
+  box-shadow: 0 12px 30px darkgrey;
+}
+
+.shake {
+  animation: shake 400ms ease-in-out;
+}
+
+.message {
+  margin-top: 60px;
+}
